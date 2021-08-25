@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mindspace</title>
+  <!-- Favicons -->
+  <link rel="icon" href="Photos/favicon.png">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- CSS for bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&family=Montserrat:ital,wght@0,500;1,500&family=Sacramento&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="C:\Personal\Web Development\Pee\Main_css\style.css">
+  <!-- Javascript & Jquery for Bootsrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Navigation bar starts -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
+      <a class="navbar-brand custom-nav-brand" href="#">Mindspace</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#test">Take test</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Navigation bar ends -->
+
+  <!-- Home page starts-->
+  <div class="container-fluid home-image ">
+    <h1 class="text-1">Welcome to Mindspace</h1>
+  </div>
+  <!-- Home page ends-->
+
+  <!-- Jumbotron starts -->
+  <div class="jumbotron" id="home">
+    <h1 class="display-4 jumbotron-heading">Online Quiz </h1>
+    <p class="lead">We have created a set of questions which would test your knowledge is various fields of education. One can take tests in varous common fields like maths , science , history , english , politics and computer science</p>
+    <hr class="my-4">
+    <p class="jumbotron-para custom-jumno-text">Everything looks better on our app 😊. Take a moment and download it</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#foot" role="button">Download</a>
+    </p>
+  </div>
+  <!-- WJumbotron ends -->
+
+
+  <!-- cards start -->
+  <div class="container-fluid cards " id="test">
+
+    <h2 class="cards-heading">Select Topics</h2>
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2>English</h2>
+          </div>
+          <div class="card-body">
+            <p>Basic Grammar</p>
+            <p>Correct Spellings</p>
+            <p>Punctuation Marks</p>
+            <p>Word Meanings</p>
+            <a href="C:\Personal\Web Development\Pee\English\start.html" class="btn btn-lg btn-block btn-outline-primary">Let's start</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2>Science</h2>
+          </div>
+          <div class="card-body">
+            <p>Earth</p>
+            <p>Newton Laws</p>
+            <p>Human Body</p>
+            <p>Basic Physics</p>
+            <a href="C:\Personal\Web Development\Pee\Science\start.html" class="btn btn-lg btn-block btn-outline-primary">Let's start</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h2>Mathematics</h2>
+          </div>
+          <div class="card-body">
+            <p>Primary ALgebra</p>
+            <p>Number System</p>
+            <p>Simple Calculus</p>
+            <p>Basic probability</p>
+            <a href="C:\Personal\Web Development\Pee\Maths\start.html" class="btn btn-lg btn-block btn-outline-primary">Let's start</a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2>History</h2>
+          </div>
+          <div class="card-body">
+            <p>Indian History</p>
+            <p>World History</p>
+            <p>Medevial History</p>
+            <p>Modern History</p>
+            <a href="C:\Personal\Web Development\Pee\History\start.html" class="btn btn-lg btn-block btn-outline-primary">Let's start</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h2>Politics</h2>
+          </div>
+          <div class="card-body">
+            <p>Indian Constitution</p>
+            <p>Indian Politics</p>
+            <p>American Politics</p>
+            <p>Current Affairs</p>
+            <a href="C:\Personal\Web Development\Pee\Politics\start.html" class="btn btn-lg btn-block btn-outline-primary">Let's start</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h2>Computers</h2>
+          </div>
+          <div class="card-body">
+            <p>Ancient Computers</p>
+            <p>Modern Devices</p>
+            <p>Modern Processors</p>
+            <p>Gaming Computers</p>
+            <!-- <button class="btn btn-lg btn-block btn-outline-primary" type="button">Let's start</button> -->
+            <a href="C:\Personal\Web Development\Pee\Computer\start.html" class="btn btn-lg btn-block btn-outline-primary">Let's start</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- cards end -->
+
+  <!-- Spacing between card & carousel starts -->
+  <div class="card-carousel">
+
+  </div>
+  <!-- Spacing between card & carousel ends -->
+
+  <!-- caraousel starts -->
+
+  <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+    <div class="carousel-inner" id="about">
+      <div class="carousel-item active">
+        <p class="carousel-text">We at Cred have very much liked the concept of this evaluator and would like to congratulate Mindspace for this amazing site</p>
+        <img class="cred" src="Photos/Cred.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <p class="carousel-text">Our employees have loved using this site and testing their skills. Brilliant place to check one's IQ . Amazing work by Mindspace</p>
+        <img class="ola" src="Photos/Ola.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <p class="carousel-text">Very good work by mindspace . We aprreciate the effort their team has put in into this website. Really a cool website</p>
+        <img class="zomato" src="Photos/Zomato.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+  <!-- carousel ends -->
+
+  <!-- Spacing between carousel & footer starts -->
+  <div class="carousel-footer">
+
+  </div>
+  <!-- Spacing between carousel & footer starts -->
+
+  <!-- footer section starts -->
+  <div class="footer" id="foot">
+    <i class="social-icon fab fa-linkedin custom-icon "></i>
+    <i class="social-icon fab fa-facebook-f custom-icon"></i>
+    <i class="social-icon fab fa-twitter custom-icon"></i>
+    <i class="social-icon fab fa-instagram custom-icon"></i>
+    <i class="social-icon fas fa-envelope custom-icon"></i>
+    <p class="footer-text">© Copyright 2020 Mindspace</p>
+    <button class="download-button btn btn-lg btn-dark x" type="button"><i class="fab fa-apple"></i> Download</button>
+    <button class="download-button btn btn-lg brn-light y" type="button"><i class="fab fa-google-play"></i> Download</button>
+  </div>
+  <!-- footer section ends -->
+
+</body>
+
+</html>
